@@ -1,7 +1,7 @@
-#!/usr/bin/env python
 # coding: utf-8
 
 # ML project using the weather data of bangalore
+#Made to be executed on google colab
 
 # In[ ]:
 
@@ -16,14 +16,14 @@ import pandas as pd
 # In[2]:
 
 
-from google.colab import drive
-drive.mount('/content/gdrive')
+#from google.colab import drive
+#drive.mount('/content/gdrive')
 
 
 # In[ ]:
+#Loading the dataset from the scv file
 
-
-df = pd.read_csv('/content/gdrive/My Drive/bengaluru.csv')
+#df = pd.read_csv('/content/gdrive/My Drive/bengaluru.csv')
 
 
 # In[ ]:
