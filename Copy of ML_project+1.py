@@ -27,7 +27,7 @@ import pandas as pd
 
 #df = pd.read_csv('/content/gdrive/My Drive/bengaluru.csv')
 
-df = pd.read_csv('bengaluru.csv')
+df = pd.read_csv('path to CSV file on local machine')
 
 # In[ ]:
 
