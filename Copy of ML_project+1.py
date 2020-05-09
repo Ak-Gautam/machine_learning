@@ -5,6 +5,8 @@
 
 # In[ ]:
 
+# Download and save the csv file in your google drive
+
 
 import numpy as np
 import csv
@@ -25,6 +27,7 @@ import pandas as pd
 
 #df = pd.read_csv('/content/gdrive/My Drive/bengaluru.csv')
 
+df = pd.read_csv('bengaluru.csv')
 
 # In[ ]:
 
