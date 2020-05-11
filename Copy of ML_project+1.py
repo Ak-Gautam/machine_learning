@@ -1,10 +1,7 @@
 # coding: utf-8
 
 # ML project using the weather data of bangalore
-#Made to be executed on google colab
-
-# In[ ]:
-
+#Can be executed on google colab
 # Download and save the csv file in your google drive
 
 
@@ -16,28 +13,21 @@ import pandas as pd
 
 
 # In[2]:
+#For google colab uncomment
 
-
-#from google.colab import drive
+#from google.colab import drive     #Mounting drive
 #drive.mount('/content/gdrive')
 
 
-# In[ ]:
-#Loading the dataset from the scv file
-
 #df = pd.read_csv('/content/gdrive/My Drive/bengaluru.csv')
 
+#If executing on local machine
 df = pd.read_csv('path to CSV file on local machine')
 
 # In[ ]:
 
 
 #df.head()
-
-
-# In[ ]:
-
-
 #df.keys()
 
 
@@ -105,7 +95,7 @@ model.add(keras.layers.LSTM(7, activation='relu', input_shape = (n_input, n_feat
 model.add(keras.layers.Dropout(0.05))
 model.compile(optimizer = 'adam', loss = 'mse')
 
-model.fit(generator, epochs = 30)
+model.fit(generator, epochs = 40)
 
 
 # In[ ]:
