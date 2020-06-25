@@ -1,0 +1,5 @@
+The datset for News project is at 
+https://drive.google.com/file/d/1Swy_ig9ZGneF_BhYOXY0vQ7M-CtOAI7_/view?usp=drivesdk
+
+
+It can be imported or downloaded.
